@@ -5,7 +5,8 @@ $(window).load(function() {
 
 $(document).ready(function(){
   $("#counter").countdown({
-  until: new Date(2020, 04 - 1, 21),
+  until: new Date(2020, 04 - 1, 20, 17, 30),
+
   format: 'dHMS'
   });
 
